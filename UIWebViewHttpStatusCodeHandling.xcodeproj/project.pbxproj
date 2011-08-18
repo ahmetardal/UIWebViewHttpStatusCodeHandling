@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		598BBE4513FD0BE500FCA5AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598BBE4413FD0BE500FCA5AA /* UIKit.framework */; };
+		598BBE4713FD0BE500FCA5AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598BBE4613FD0BE500FCA5AA /* Foundation.framework */; };
+		598BBE4913FD0BE500FCA5AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598BBE4813FD0BE500FCA5AA /* CoreGraphics.framework */; };
+		598BBE4F13FD0BE500FCA5AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 598BBE4D13FD0BE500FCA5AA /* InfoPlist.strings */; };
+		598BBE5213FD0BE500FCA5AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 598BBE5113FD0BE500FCA5AA /* main.m */; };
+		598BBE5513FD0BE500FCA5AA /* UIWebViewHttpStatusCodeHandlingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 598BBE5413FD0BE500FCA5AA /* UIWebViewHttpStatusCodeHandlingAppDelegate.m */; };
+		598BBE5813FD0BE600FCA5AA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 598BBE5613FD0BE600FCA5AA /* MainWindow.xib */; };
+		598BBE5B13FD0BE600FCA5AA /* UIWebViewHttpStatusCodeHandlingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 598BBE5A13FD0BE600FCA5AA /* UIWebViewHttpStatusCodeHandlingViewController.m */; };
+		598BBE5E13FD0BE600FCA5AA /* UIWebViewHttpStatusCodeHandlingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 598BBE5C13FD0BE600FCA5AA /* UIWebViewHttpStatusCodeHandlingViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		598BBE4013FD0BE400FCA5AA /* UIWebViewHttpStatusCodeHandling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIWebViewHttpStatusCodeHandling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		598BBE4413FD0BE500FCA5AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		598BBE4613FD0BE500FCA5AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		598BBE4813FD0BE500FCA5AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		598BBE4C13FD0BE500FCA5AA /* UIWebViewHttpStatusCodeHandling-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIWebViewHttpStatusCodeHandling-Info.plist"; sourceTree = "<group>"; };
+		598BBE4E13FD0BE500FCA5AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		598BBE5013FD0BE500FCA5AA /* UIWebViewHttpStatusCodeHandling-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWebViewHttpStatusCodeHandling-Prefix.pch"; sourceTree = "<group>"; };
+		598BBE5113FD0BE500FCA5AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		598BBE5313FD0BE500FCA5AA /* UIWebViewHttpStatusCodeHandlingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIWebViewHttpStatusCodeHandlingAppDelegate.h; sourceTree = "<group>"; };
+		598BBE5413FD0BE500FCA5AA /* UIWebViewHttpStatusCodeHandlingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWebViewHttpStatusCodeHandlingAppDelegate.m; sourceTree = "<group>"; };
+		598BBE5713FD0BE600FCA5AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		598BBE5913FD0BE600FCA5AA /* UIWebViewHttpStatusCodeHandlingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIWebViewHttpStatusCodeHandlingViewController.h; sourceTree = "<group>"; };
+		598BBE5A13FD0BE600FCA5AA /* UIWebViewHttpStatusCodeHandlingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWebViewHttpStatusCodeHandlingViewController.m; sourceTree = "<group>"; };
+		598BBE5D13FD0BE600FCA5AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UIWebViewHttpStatusCodeHandlingViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		598BBE3D13FD0BE400FCA5AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598BBE4513FD0BE500FCA5AA /* UIKit.framework in Frameworks */,
+				598BBE4713FD0BE500FCA5AA /* Foundation.framework in Frameworks */,
+				598BBE4913FD0BE500FCA5AA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		598BBE3513FD0BE400FCA5AA = {
+			isa = PBXGroup;
+			children = (
+				598BBE4A13FD0BE500FCA5AA /* UIWebViewHttpStatusCodeHandling */,
+				598BBE4313FD0BE400FCA5AA /* Frameworks */,
+				598BBE4113FD0BE400FCA5AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		598BBE4113FD0BE400FCA5AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				598BBE4013FD0BE400FCA5AA /* UIWebViewHttpStatusCodeHandling.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		598BBE4313FD0BE400FCA5AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				598BBE4413FD0BE500FCA5AA /* UIKit.framework */,
+				598BBE4613FD0BE500FCA5AA /* Foundation.framework */,
+				598BBE4813FD0BE500FCA5AA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		598BBE4A13FD0BE500FCA5AA /* UIWebViewHttpStatusCodeHandling */ = {
+			isa = PBXGroup;
+			children = (
+				598BBE5313FD0BE500FCA5AA /* UIWebViewHttpStatusCodeHandlingAppDelegate.h */,
+				598BBE5413FD0BE500FCA5AA /* UIWebViewHttpStatusCodeHandlingAppDelegate.m */,
+				598BBE5613FD0BE600FCA5AA /* MainWindow.xib */,
+				598BBE5913FD0BE600FCA5AA /* UIWebViewHttpStatusCodeHandlingViewController.h */,
+				598BBE5A13FD0BE600FCA5AA /* UIWebViewHttpStatusCodeHandlingViewController.m */,
+				598BBE5C13FD0BE600FCA5AA /* UIWebViewHttpStatusCodeHandlingViewController.xib */,
+				598BBE4B13FD0BE500FCA5AA /* Supporting Files */,
+			);
+			path = UIWebViewHttpStatusCodeHandling;
+			sourceTree = "<group>";
+		};
+		598BBE4B13FD0BE500FCA5AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				598BBE4C13FD0BE500FCA5AA /* UIWebViewHttpStatusCodeHandling-Info.plist */,
+				598BBE4D13FD0BE500FCA5AA /* InfoPlist.strings */,
+				598BBE5013FD0BE500FCA5AA /* UIWebViewHttpStatusCodeHandling-Prefix.pch */,
+				598BBE5113FD0BE500FCA5AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		598BBE3F13FD0BE400FCA5AA /* UIWebViewHttpStatusCodeHandling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 598BBE6113FD0BE600FCA5AA /* Build configuration list for PBXNativeTarget "UIWebViewHttpStatusCodeHandling" */;
+			buildPhases = (
+				598BBE3C13FD0BE400FCA5AA /* Sources */,
+				598BBE3D13FD0BE400FCA5AA /* Frameworks */,
+				598BBE3E13FD0BE400FCA5AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIWebViewHttpStatusCodeHandling;
+			productName = UIWebViewHttpStatusCodeHandling;
+			productReference = 598BBE4013FD0BE400FCA5AA /* UIWebViewHttpStatusCodeHandling.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		598BBE3713FD0BE400FCA5AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "SpinningSphere Labs";
+			};
+			buildConfigurationList = 598BBE3A13FD0BE400FCA5AA /* Build configuration list for PBXProject "UIWebViewHttpStatusCodeHandling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 598BBE3513FD0BE400FCA5AA;
+			productRefGroup = 598BBE4113FD0BE400FCA5AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				598BBE3F13FD0BE400FCA5AA /* UIWebViewHttpStatusCodeHandling */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		598BBE3E13FD0BE400FCA5AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598BBE4F13FD0BE500FCA5AA /* InfoPlist.strings in Resources */,
+				598BBE5813FD0BE600FCA5AA /* MainWindow.xib in Resources */,
+				598BBE5E13FD0BE600FCA5AA /* UIWebViewHttpStatusCodeHandlingViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		598BBE3C13FD0BE400FCA5AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598BBE5213FD0BE500FCA5AA /* main.m in Sources */,
+				598BBE5513FD0BE500FCA5AA /* UIWebViewHttpStatusCodeHandlingAppDelegate.m in Sources */,
+				598BBE5B13FD0BE600FCA5AA /* UIWebViewHttpStatusCodeHandlingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		598BBE4D13FD0BE500FCA5AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				598BBE4E13FD0BE500FCA5AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		598BBE5613FD0BE600FCA5AA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				598BBE5713FD0BE600FCA5AA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		598BBE5C13FD0BE600FCA5AA /* UIWebViewHttpStatusCodeHandlingViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				598BBE5D13FD0BE600FCA5AA /* en */,
+			);
+			name = UIWebViewHttpStatusCodeHandlingViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		598BBE5F13FD0BE600FCA5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		598BBE6013FD0BE600FCA5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		598BBE6213FD0BE600FCA5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWebViewHttpStatusCodeHandling/UIWebViewHttpStatusCodeHandling-Prefix.pch";
+				INFOPLIST_FILE = "UIWebViewHttpStatusCodeHandling/UIWebViewHttpStatusCodeHandling-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		598BBE6313FD0BE600FCA5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWebViewHttpStatusCodeHandling/UIWebViewHttpStatusCodeHandling-Prefix.pch";
+				INFOPLIST_FILE = "UIWebViewHttpStatusCodeHandling/UIWebViewHttpStatusCodeHandling-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		598BBE3A13FD0BE400FCA5AA /* Build configuration list for PBXProject "UIWebViewHttpStatusCodeHandling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598BBE5F13FD0BE600FCA5AA /* Debug */,
+				598BBE6013FD0BE600FCA5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		598BBE6113FD0BE600FCA5AA /* Build configuration list for PBXNativeTarget "UIWebViewHttpStatusCodeHandling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598BBE6213FD0BE600FCA5AA /* Debug */,
+				598BBE6313FD0BE600FCA5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 598BBE3713FD0BE400FCA5AA /* Project object */;
+}
